@@ -32,6 +32,11 @@ const project: IProject.Payload = {
         },
         { content: '피해에 대해 분석하고 데이터를 시각화 할 수 있는 방안 연구' },
         { content: '데이터 수집 및 시제품 개발' },
+        {
+          content: 'Slideshare:',
+          postHref:
+            'https://www.slideshare.net/ssuser870eb5/2020-k-hackersstartup-clubpresentationfinal-versionpptx',
+        },
       ],
     },
     {
