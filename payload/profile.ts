@@ -30,7 +30,7 @@ const profile: IProfile.Payload = {
       icon: faGithub,
     },
     {
-      link: 'https://www.facebook.com/iu.loen',
+      link: 'https://www.facebook.com/seunghyeong.e/',
       icon: faFacebook,
     },
     {
