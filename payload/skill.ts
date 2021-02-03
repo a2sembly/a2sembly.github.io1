@@ -1,75 +1,53 @@
 import { ISkill } from '../component/skill/ISkill';
 
 const backend: ISkill.Skill = {
-  category: 'Back-end',
+  category: 'Programming',
   items: [
     {
-      title: 'Node.js',
+      title: 'C#',
       level: 3,
     },
     {
-      title: 'AWS',
-      level: 3,
-    },
-    {
-      title: 'PHP',
+      title: 'Python',
       level: 2,
+    },
+    {
+      title: 'C/C++',
+      level: 1,
     },
     {
       title: 'Java',
       level: 1,
     },
     {
-      title: 'Python',
+      title: 'PHP',
       level: 1,
     },
     {
-      title: 'C/C++',
-      level: 1,
+      title: 'Visual Basic',
+      level: 2,
     },
   ],
 };
 
 const database: ISkill.Skill = {
-  category: 'Database',
+  category: 'Security',
   items: [
     {
-      title: 'MySQL',
-      level: 3,
-    },
-    {
-      title: 'Oracle',
+      title: 'Revers Engineering',
       level: 2,
     },
     {
-      title: 'Redis',
+      title: 'Digital Forensic',
       level: 2,
     },
     {
-      title: 'MongoDB',
+      title: 'Web',
       level: 1,
     },
-  ],
-};
-
-const frontend: ISkill.Skill = {
-  category: 'Front-end',
-  items: [
     {
-      title: 'Next.js',
-      level: 2,
-    },
-    {
-      title: 'React.js',
-      level: 2,
-    },
-    {
-      title: 'javascript',
-      level: 2,
-    },
-    {
-      title: 'HTML/CSS',
-      level: 2,
+      title: 'System',
+      level: 1,
     },
   ],
 };
@@ -84,24 +62,27 @@ const etc: ISkill.Skill = {
       title: 'Vim',
     },
     {
-      title: 'Security',
-    },
-    {
       title: 'VS Code',
     },
     {
-      title: 'Jira',
+      title: 'Cryptography',
     },
     {
-      title: 'Confluence',
+      title: 'Steganography',
+    },
+    {
+      title: 'Git / Github',
+    },
+    {
+      title: 'Other Tools',
     },
   ],
 };
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [backend, database, frontend, etc],
-  tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
+  skills: [backend, database, etc],
+  tooltip: '1: 기초 수준\n2: 학부 수준\n3: 실무 활용 가능 수준',
 };
 
 export default skill;

@@ -1,6 +1,6 @@
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
-import { faGithub, faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faFacebook, faBlogger } from '@fortawesome/free-brands-svg-icons';
 import image from '../asset/_sample.jpg';
 import { IProfile } from '../component/profile/IProfile';
 
@@ -10,12 +10,12 @@ const profile: IProfile.Payload = {
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: 'Lorem ipsum',
-    small: '(LI)',
+    title: '이 승 형',
+    small: '(a2sembly)',
   },
   contact: [
     {
-      title: 'foo@bar.xyz',
+      title: 'me@a2sembly.xyz',
       link: '#',
       icon: faEnvelope,
     },
@@ -25,8 +25,8 @@ const profile: IProfile.Payload = {
       badge: true,
     },
     {
-      title: 'https://github.com',
-      link: 'https://github.com/uyu423/resume-nextjs',
+      title: 'https://github.com/a2sembly',
+      link: 'https://github.com/a2sembly',
       icon: faGithub,
     },
     {
@@ -34,14 +34,14 @@ const profile: IProfile.Payload = {
       icon: faFacebook,
     },
     {
-      title: 'YouTube',
-      link: 'https://www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww',
+      title: 'https://a2sembly.xyz',
+      link: 'https://a2sembly.xyz',
       // icon: faRss,
-      icon: faYoutube,
+      icon: faBlogger,
     },
   ],
   notice: {
-    title: "This resume is a sample page of 'https://github.com/uyu423/resume-nextjs'.",
+    title: 'I AM : [호기심이 많은 아이]',
     icon: faBell,
   },
 };

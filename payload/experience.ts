@@ -4,27 +4,16 @@ const experience: IExperience.Payload = {
   disable: false,
   list: [
     {
-      title: 'Foo Company',
-      position: 'Node.js Developer',
-      startedAt: '2018-02',
+      title: '대한민국 공군 CERT(ROKAF CERT)',
+      position: '정보보호병',
+      startedAt: '2017-08',
+      endedAt: '2019-07',
       descriptions: [
-        'OTA Service Provider',
-        'Data modeling and Mashup API development',
-        'Systems Engineering and DevOps',
+        '보안관제 및 업무 자동화 Process 개발',
+        '음성인식 AI 관련 프로젝트 참여(공군 해커톤)',
+        '침해사고 대응 훈련 등',
       ],
-      skillKeywords: ['Node.js', 'TypeScript', 'Express.js', 'Mashup API', 'AWS'],
-    },
-    {
-      title: 'Bar Co., Ltd.',
-      position: 'Software Enginner',
-      startedAt: '2016-10',
-      endedAt: '2017-11',
-      descriptions: [
-        'Online Commerce IT Startup',
-        'Development of reservation system and service worker',
-        'AWS infrastructure and RDBMS maintenance and development',
-      ],
-      skillKeywords: ['Node.js', 'MySQL', 'AWS'],
+      skillKeywords: ['C#', 'IDS/IPS', 'WAF', 'NAC', 'SIEM'],
     },
   ],
 };
