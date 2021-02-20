@@ -16,6 +16,11 @@ const etc: IEtc.Payload = {
       startedAt: '2019-12',
     },
     {
+      title: '인공지능 고급과정(AI기술활용)',
+      subTitle: '(재) 포항테크노파크',
+      startedAt: '2020-12',
+    },
+    {
       title: '대학생 자유학기제 봉사단',
       subTitle: '교육부 주관 - 삼성현중학교(10월) 및 대구중앙중학교(11월)',
       startedAt: '2019-10',
