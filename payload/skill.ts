@@ -13,7 +13,7 @@ const backend: ISkill.Skill = {
     },
     {
       title: 'C/C++',
-      level: 1,
+      level: 2,
     },
     {
       title: 'Java',
@@ -43,11 +43,11 @@ const database: ISkill.Skill = {
     },
     {
       title: 'Web',
-      level: 1,
+      level: 2,
     },
     {
       title: 'System',
-      level: 1,
+      level: 2,
     },
   ],
 };
