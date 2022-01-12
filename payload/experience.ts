@@ -15,6 +15,12 @@ const experience: IExperience.Payload = {
       ],
       skillKeywords: ['C#', 'IDS/IPS', 'WAF', 'NAC', 'SIEM'],
     },
+    {
+      title: 'PlainBit',
+      position: '연구원',
+      startedAt: '2022-01',
+      descriptions: ['침해사고 피해조사'],
+    },
   ],
 };
 
